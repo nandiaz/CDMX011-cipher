@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="titulo1" id="titulo">
+    <h1 class="letratitulo">Bienvenid@ a espacio seguro</h1>
+  </div>
+  <br>
+  <div class="TextoBienvenida" id="bienvenida">
+    <p class="contenidoBienvenida">"Bienvenid@ a ESPACIO SEGURO, aquí podrás escribir un mensaje cifrado, el cual
+      consiste en lo siguiente: <br>
+
+      Escribes tu mensaje y luego sustituyes cada letra por la letra correspondiente dependiendo del desplazamiento que
+      elijas a la derecha.
+      Por ejemplo: la palabra es ABE y el desplazamiento son 3, esto quiere decir que irá 3 desplazamientos a la derecha
+      por lo que ABE se sustituiría por DEH.<br>
+      Este espacio es seguro por lo que puedes reportar cualquier evento malo dentro de la organización
+      (acoso/mobbing, machismo, racismo, discriminación, comportamiento despótico de los jefes, etc.). <br>
+      Por lo que se pide seriedad a este espacio.<br>
+      Recuerda que puedes escoger el desplazamiento que tu quieras.
+      <br>
+      ¡Gracias por la confianza!
+    </p>
+  </div>
+  
+  <div class="Contenido">
+    <h2>Escribe tu mensaje:</h2>
+    <textarea class="Mensajes" name="Mensaje" id="mensaje"></textarea>
+    <h3>DESPLAZAMIENTO</h3>
+    <p><input type="number" id="selectoffset"></p>
+    <p><button type="button" id="buttoncipher"> Cifrar </button>
+      <button type="button" id="buttondecipher">Descifrar </button>
+    </p>
+    <h2>MENSAJE CIFRADO/DESCIFRADO</h2>
+    <textarea class="Mensajes" name="Mensaje2" id="mensaje2"></textarea>
+  </div>
+
+
+
+  <script src="index.js" type="module"></script>
+
+
+</body>
+
 </html>

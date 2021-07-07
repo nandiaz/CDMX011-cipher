@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(199, 199, 199);
+    height: auto;
+    padding: 2%;
+    
+}
+.titulo1{
+    display: flex;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+    background-image: url(https://www.dineroenimagen.com/media/dinero/hacker.gif);
+    font-family: 'VT323', monospace;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.letratitulo{
+    padding: auto;
+    color: white;
+    text-shadow: 5px 2px 2px black;
+}
+.TextoBienvenida{
+    width: 700px;
+    height: auto;
+    text-align: left;
+    margin: 0 auto;
+    border: black 2px inset;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: rgb(48, 46, 46);
+    font-size: 15px;
+    box-shadow: 10px 20px 20px white;
+    color: white;
+    font-family: monospace;
+    transition: box-shadow 3s, background-color 2s;
+
+}
+.TextoBienvenida:hover{
+    
+    background-color: black;
+    box-shadow: 40px 60px 60px white;
+    
+
+}
+.Contenido{
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: 4px;
+    font-family: monospace;
+}
+
+.Mensajes{
+    width: 350px;
+    height: 100px;
+}
+h3{
+    font-family: monospace;
+}
